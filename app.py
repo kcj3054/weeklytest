@@ -21,7 +21,7 @@ def save_info():
     # market, sector, tag
     stock = db.codes.distinct('info')
     ##생략
-	return jsonify({})
+
 
 if __name__ == '__main__':
    app.run('0.0.0.0',port=5000,debug=True)
